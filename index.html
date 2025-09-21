@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Application</title>
+</head>
+
+<body>
+    <div class="qogoz">
+        <h1>Job Application</h1>
+        <p>Please complete the form below to apply for a position with us.</p>
+        <hr>
+        <form action="index.html" method="get">
+            <div class="hi">
+                <label for="ism">Name</label>
+                <input type="text" id="ism" name="First Name" required>
+                <label for="famil">Surname</label>
+                <input type="text" id="famil" required>
+            </div>
+            <div class="pol">
+                <label for="sm">Height</label>
+                <input type="number" id="sm" placeholder="sm" required>
+                
+                <label for="kg">Weight</label>
+                <input type="number" id="kg" placeholder="kg" required>
+            </div>
+            <div class="jjjj">
+                <label for="day">Birth day</label>
+                <input type="date" id="day" required>
+            </div>
+            <div class="jjj">
+                <p>Family Status</p>
+                <label for="status">Divorked</label>
+                <input type="radio" id="status" name="status">
+                <br>
+                <label for="marry">Marriyed</label>
+                <input type="radio" id="marry" name="status">
+                <br>
+                <label for="sin">Single</label>
+                <input type="radio" id="sin" name="status">
+                <br>
+                <label for="oth">Other</label>
+                <input type="radio" id="oth" name="status">
+            </div>
+
+            <div class="form-group">
+                <label>Correct Address</label>
+                <input type="text" id="street" name="street" required>
+                <label for="street" class="ggg">Street Address</label>
+                <input type="text" id="sss" name="street" required>
+                <label for="sss" class="ggg">Street Address Line 2</label>
+            </div>
+            <div class="group">
+                <input type="text" id="street" name="street" placeholder="City" required>
+            
+                <input type="text" id="street" name="street" placeholder="State / Province" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="qqq" name="street" required >
+                <label for="qqq" class="ggg">Postal / Zip Code</label>
+            </div>
+            <div class="low">
+                <label for="ema">Email Address</label>
+                <input type="email" placeholder="ex: myname@example.com" id="ema" required>
+                <label for="nomer">Phone Number</label>
+                <input type="text" id="nomer" placeholder="(90)9009090" required>
+            </div>
+            <div class="rel">
+                <label for="exp">Linkedin</label>
+                <input type="text" id="exp" required>
+                <label for="ex">Experience</label>
+                <input type="number" id="ex" required>
+            </div>
+            <div class="fef">
+                <label for="file">Applicant Document (Diploma, Certificate)</label> <br>
+                <input type="file" id="file" required> <br>
+                <label for="fil">Upload Your Resume</label> <br>
+                <input type="file" id="fil" required>
+            </div>
+            <div>
+                <label for="leter">Cover Letter</label> <br>
+                <textarea id="leter" cols="108%" rows="8"></textarea>
+            </div>
+            <div class="bbut">
+            <button type="submit">Apply</button>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
